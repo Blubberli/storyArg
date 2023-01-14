@@ -100,6 +100,9 @@ to train the models are stored in `code/splits/function`. The splits are created
 Each experience can have multiple functions. The models take the 'experience_words' as input and the 'function' column as label.
 ('DISCLOSURE OF HARM', 'SEARCH FOR SOLUTION', 'CLARIFICATION', 'ESTABLISH BACKGROUND'
 
+### requirements
+The models are implemented in Python 3.7. The requirements are listed in `requirements.txt`.
+
 To train the models, run the following command:
 
 ```sh example_bash.sh```
@@ -113,3 +116,5 @@ To predict any of the described tasks, run the following command:
 
 The script loads the saved model checkpoint from the `model_dir` directory and predicts the labels for the instances in the `input_file` and stores the results in the `output_file` file.
 Set --do_eval to evaluate if the `input_file` contains labels.
+
+## References
