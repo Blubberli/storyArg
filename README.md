@@ -101,7 +101,7 @@ Each experience can have multiple functions. The models take the 'experience_wor
 ('DISCLOSURE OF HARM', 'SEARCH FOR SOLUTION', 'CLARIFICATION', 'ESTABLISH BACKGROUND'
 
 ### requirements
-The models are implemented in Python 3.7. The requirements are listed in `requirements.txt`.
+The models are implemented in Python 3.10. The requirements are listed in `requirements.txt`.
 
 To train the models, run the following command:
 
@@ -116,5 +116,14 @@ To predict any of the described tasks, run the following command:
 
 The script loads the saved model checkpoint from the `model_dir` directory and predicts the labels for the instances in the `input_file` and stores the results in the `output_file` file.
 Set --do_eval to evaluate if the `input_file` contains labels.
+
+To do a cluster analysis first create embeddings for the experiences with the following command:
+
+```python create_embeddings.py --file_path <path to data to generate predictions for> --text_col <name of the text column in the data> --output_path <path to save the predictions> --model_name_or_path <path to the pretrained LM>```
+
+Then run the following command to do the cluster analysis:
+
+```python clustering.py --dataset <path to data to do the clustering on> --embedding_path <path from which to load the embeddings> --output_path <path to save the predictions> --num_clusters <number of clusters> --filter <filter for the experiences to cluster, e.g. personal>```
+
 
 ## References
