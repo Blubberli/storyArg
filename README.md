@@ -127,3 +127,7 @@ Then run the following command to do the cluster analysis:
 
 
 ## References
+This dataset is based on existing resources, if you use this dataset cite the following:
+- Joonsuk Park and Claire Cardie. 2018. **A corpus of eRulemaking user comments for measuring evaluability of arguments.** *In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)*, Miyazaki, Japan. European Language Resources Association (ELRA)
+- Ryo Egawa, Gaku Morio, and Katsuhide Fujita. 2019. **Annotating and analyzing semantic role of elementary units and relations in online persuasive arguments.** *In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop*, pages 422–428, Florence, 872 Italy. Association for Computational Linguistics.
+- Marlène Gerber, André Bächtiger, Susumu Shikano, Simon Reber, and Samuel Rohr. 2018. **Deliberative abilities and influence in a transnational deliberative poll (europolis).** *British Journal of Political Science*, 48(4):1093–1118.
