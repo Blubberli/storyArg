@@ -1,2 +1,3 @@
-This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License:
-<http://creativecommons.org/licenses/by-sa/4.0/>.
+This work is licensed under CC-BY-4.0
+(https://creativecommons.org/licenses/by/4.0/). Note that this license
+contains our annotations only and not the original data.
